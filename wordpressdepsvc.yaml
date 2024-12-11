@@ -44,8 +44,8 @@ spec:
               mountPath: /var/www/html/wp-content
       volumes:
         - name: wp-content
-          hostPath:
-            path: ./wp-content
+          persistentVolumeClaim:
+            claimName: wb-pvc
 ---
 apiVersion: v1
 kind: Service
