@@ -98,7 +98,3 @@ Check the **EXTERNAL-IP / NodePort** and open in a browser.
 * Database managed via phpMyAdmin
 * Both backed by Persistent Volumes for data durability
 
-
----
-
-Do you want me to also add a **YAML tree structure** section (like `manifests/` folder with files inside) so contributors clearly see file organization?
